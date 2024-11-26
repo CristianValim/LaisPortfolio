@@ -54,6 +54,16 @@ body,
 html {
 	height: 100%;
 	scroll-behavior: smooth;
+	scroll-snap-type: y mandatory;
+	overscroll-behavior-y: none;
+}
+
+.snap-y {
+	scroll-snap-type: y mandatory;
+}
+
+.snap-start {
+	scroll-snap-align: start;
 }
 
 h1,
