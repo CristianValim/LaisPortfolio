@@ -5,10 +5,10 @@ export function MenuNavigation() {
 		<nav className="w-full flex justify-center">
 			<ul className="flex flex-col items-center text-[2rem] p-10 space-y-5">
 				<li>
-					<Link className="font-semibold text-menu underline">trabalho</Link>
+					<Link to="/trabalhos" className="font-semibold text-menu underline">trabalho</Link>
 				</li>
 				<li>
-					<Link className="font-light text-menu underline">sobre</Link>
+					<Link to="/sobre" className="font-light text-menu underline">sobre</Link>
 				</li>
 				<li className="mt-8">
 					<Link className="font-semibold text-menu underline">português</Link>

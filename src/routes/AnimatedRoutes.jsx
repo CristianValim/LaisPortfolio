@@ -24,7 +24,7 @@ export function AnimatedRoutes() {
                         </motion.div>
                     }
 				/>
-				<Route path="/about" element={<About />} />
+				<Route path="/sobre" element={<About />} />
 			</Routes>
 		</AnimatePresence>
 	);

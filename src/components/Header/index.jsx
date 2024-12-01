@@ -22,7 +22,7 @@ export function Header() {
 				<h1 className="font-title uppercase font-extrabold text-[2.4rem]">
 					Laís Sanseverino
 				</h1>
-				<span className="w-[90%] h-[1px] bg-[#D9D9D9] absolute bottom-0" />
+				<hr className="w-[90%] h-[1px] bg-[#D9D9D9] absolute bottom-0" />
 			</motion.header>
 			<Menu isOpen={isOpen} headerHeight={headerHeight} setOpen={setOpen} />
 		</>
