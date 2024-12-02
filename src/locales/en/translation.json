@@ -1,0 +1,36 @@
+{
+    "home": {
+      "name": "Laís Sanseverino",
+      "intro": "Hello! My name is Laís Sanseverino - designer and biologist, fascinated by the relationships between health, education, and informational design."
+    },
+    "ProfileInfo": {
+      "vision": "My vision is marked by interdisciplinarity and driven by continuous learning, as evident in my various degrees and work experiences.",
+      "informationToVisual": "I say I enjoy taking information – redundant, verbose, and difficult – and transforming it into concise visual communication that pleases the target audience, always based on information and user-centered design.",
+      "work": "In addition to freelancing, I work as an Instructional Designer at the Distance Education Department at the State University of Londrina, and I was the Clinical Research Coordinator at the São Francisco Medical Center.",
+      "leisure": "In my leisure time, I enjoy going to the gym and expressing myself artistically through fashion, crafts, and illustration."
+    },
+    "CurriculumSection": {
+      "degree": "Bachelor's in Graphic Design",
+      "specialization": "Specialist in Educational Design",
+      "masters": "Master's in Information Design",
+      "instructionalDesign": "Instructional Design",
+      "webDesign": "Web Design",
+      "layout": "Layout",
+      "illustration": "Illustration",
+      "moodle": "Moodle and virtual learning environments",
+      "materialCreation": "Planning and creation of educational materials",
+      "guides": "Guides, manuals, and static and interactive infographics",
+      "learningPaths": "Learning paths"
+    },
+    "about": {
+      "greeting": "Hello! I'm Laís Sanseverino",
+      "emailCopied": "Email copied to clipboard!"
+    },
+    "menu": {
+    "work": "work",
+    "about": "about",
+    "portuguese": "portuguese",
+    "english": "english"
+    }
+  }
+  

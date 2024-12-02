@@ -1,0 +1,36 @@
+{
+    "home": {
+      "name": "Laís Sanseverino",
+      "intro": "Tudo bom? Meu nome é Laís Sanseverino - designer e bióloga, encantada pelas relações entre saúde, educação e design informacional."
+    },
+    "ProfileInfo": {
+      "vision": "Minha visão é marcada pela interdisciplinaridade e movimentada pelo constante aprendizado, como é explícito nas minhas diversas formações e experiências de trabalho.",
+      "informationToVisual": "Eu digo que gosto de pegar informação - redundante, prolixa e difícil - e transformar em comunicação visual concisa que agrade o público alvo, sempre com base no design informacional e de usuário.",
+      "work": "Além de freelancer, trabalho como Designer Instrucional do Núcleo de Educação a Distância da Universidade Estadual de Londrina, e fui Coordenadora de Pesquisa Clínica no Centro Médico São Francisco.",
+      "leisure": "No tempo de lazer gosto de ir na academia e de me expressar artisticamente através de moda, artesanato e ilustração."
+    },
+    "CurriculumSection": {
+      "degree": "Bacharel em Design Gráfico",
+      "specialization": "Especialista em Design Educacional",
+      "masters": "Mestre em Design da Informação",
+      "instructionalDesign": "Design Instrucional",
+      "webDesign": "Web Design",
+      "layout": "Diagramação",
+      "illustration": "Ilustração",
+      "moodle": "Moodle e ambientes virtuais de aprendizagem",
+      "materialCreation": "Planejamento e criação de materiais educacionais",
+      "guides": "Guias, manuais e infográficos estáticos e interativos",
+      "learningPaths": "Trilhas de aprendizagem"
+    },
+    "about": {
+    "greeting": "Olá! Eu sou a Laís Sanseverino",
+    "emailCopied": "Email copiado para a área de transferência!"
+    },
+    "menu": {
+    "work": "trabalho",
+    "about": "sobre",
+    "portuguese": "português",
+    "english": "english"
+    }
+  }
+  
