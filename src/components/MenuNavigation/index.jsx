@@ -38,15 +38,19 @@ export function MenuNavigation({ setOpen }) {
 					<button
 						type="button"
 						onClick={() => handleLanguageChange("pt")}
-						className="font-semibold text-menu underline"
+						className={`${
+							i18n.language === "pt" ? "font-semibold" : "font-light"
+						} text-menu underline`}
 					>
 						{t("menu.portuguese")}
 					</button>
-					<span> /</span>
+					<span> / </span>
 					<button
 						type="button"
 						onClick={() => handleLanguageChange("en")}
-						className="font-light text-menu underline"
+						className={`${
+							i18n.language === "en" ? "font-semibold" : "font-light"
+						} text-menu underline`}
 					>
 						{t("menu.english")}
 					</button>
