@@ -1,6 +1,6 @@
 import { MenuNavigation } from "../MenuNavigation";
 
-export function Menu({ isOpen, headerHeight, setOpen }) {
+export function Menu({ isOpen, headerHeight, closeMenu }) {
 	return (
 		<div
 			className={`transition-all duration-300 ease-in-out fixed left-0 w-full bg-primaryBackground ${
@@ -10,7 +10,7 @@ export function Menu({ isOpen, headerHeight, setOpen }) {
 				top: headerHeight,
 			}}
 		>
-			<MenuNavigation setOpen={setOpen} />
+			<MenuNavigation closeMenu={closeMenu} />
 		</div>
 	);
 }

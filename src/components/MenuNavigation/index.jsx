@@ -1,35 +1,35 @@
 import { useTranslation } from "react-i18next";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
-export function MenuNavigation({ setOpen }) {
+export function MenuNavigation({ closeMenu }) {
 	const { t, i18n } = useTranslation();
-
-	function handleCloseMenu() {
-		setOpen(false);
-	}
+	const location = useLocation();
 
 	function handleLanguageChange(language) {
 		i18n.changeLanguage(language);
-		handleCloseMenu();
+		closeMenu();
 	}
+
+	const isActive = (path) =>
+		location.pathname === path ? "font-semibold" : "font-light";
 
 	return (
 		<nav className="w-full flex justify-center">
 			<ul className="flex flex-col items-center text-[2rem] p-10 space-y-5">
 				<li>
 					<Link
-						onClick={handleCloseMenu}
+						onClick={closeMenu}
 						to="/projects"
-						className="font-semibold text-menu underline"
+						className={`${isActive("/projects")} text-menu underline`}
 					>
 						{t("menu.work")}
 					</Link>
 				</li>
 				<li>
 					<Link
-						onClick={handleCloseMenu}
+						onClick={closeMenu}
 						to="/about"
-						className="font-light text-menu underline"
+						className={`${isActive("/about")} text-menu underline`}
 					>
 						{t("menu.about")}
 					</Link>

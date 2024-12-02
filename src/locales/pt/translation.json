@@ -10,17 +10,25 @@
       "leisure": "No tempo de lazer gosto de ir na academia e de me expressar artisticamente através de moda, artesanato e ilustração."
     },
     "CurriculumSection": {
-      "degree": "Bacharel em Design Gráfico",
-      "specialization": "Especialista em Design Educacional",
-      "masters": "Mestre em Design da Informação",
-      "instructionalDesign": "Design Instrucional",
-      "webDesign": "Web Design",
-      "layout": "Diagramação",
-      "illustration": "Ilustração",
-      "moodle": "Moodle e ambientes virtuais de aprendizagem",
-      "materialCreation": "Planejamento e criação de materiais educacionais",
-      "guides": "Guias, manuais e infográficos estáticos e interativos",
-      "learningPaths": "Trilhas de aprendizagem"
+      "graduatedIn": "Formada em",
+      "graphicDesign": {
+        "degreeDesign": "Bacharel em Design Gráfico",
+        "specializationDesign1": "Especialista em Design Educacional",
+        "specializationDesign2": "Mestra em Design da Informação",
+        "degreeBio": "Bacharel em Ciências Biológicas",
+        "specializationsBio": "Especialista em Biologia e Conservação da Fauna Silvestre"
+
+      },
+      "instructionalDesign": {
+        "degreeDesign": "Design instrucional",
+        "specializationDesign1": "Moodle e ambientes virtuais de aprendizagem",
+        "specializationDesign2": "Planejamento e criação de materiais educacionais",
+        "specializationDesign3": "Guias, manuais e infográficos estáticos e interativos",
+        "specializationDesign4": "Trilhas de aprendizagem",
+        "degreeWeb": "Web Design",
+        "degreeDiag": "Diagramação",
+        "degreeIlustration": "Ilustração"
+      }
     },
     "about": {
     "greeting": "Olá! Eu sou a Laís Sanseverino",

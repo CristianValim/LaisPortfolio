@@ -6,6 +6,7 @@ import { About } from "../pages/About";
 import { Home } from "../pages/Home";
 import { Projects } from "../pages/Projects";
 import { ToastContainer } from "react-toastify"; // Importando o ToastContainer
+import { Footer } from "../components/Footer";
 
 export function AnimatedRoutes() {
   const location = useLocation();
@@ -58,6 +59,7 @@ export function AnimatedRoutes() {
             }
           />
         </Routes>
+        <Footer />
       </AnimatePresence>
     </>
   );
