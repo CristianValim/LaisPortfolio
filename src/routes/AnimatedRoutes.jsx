@@ -28,7 +28,6 @@ export function AnimatedRoutes() {
                 transition={{ duration: 0.5 }}
               >
                 <Home />
-                <Projects />
               </motion.div>
             }
           />
